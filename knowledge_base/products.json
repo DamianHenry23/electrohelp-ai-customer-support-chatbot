@@ -1,0 +1,82 @@
+
+[
+    {
+        "id": 1,
+        "name": "TechPro Gaming Laptop",
+        "category": "Laptop",
+        "price": 1200,
+        "currency": "USD",
+        "specifications": {
+            "processor": "Intel Core i7",
+            "ram": "16GB",
+            "storage": "1TB SSD",
+            "graphics": "NVIDIA RTX 4060",
+            "display": "15.6-inch Full HD"
+        },
+        "description": "A gaming laptop designed for gaming, multitasking, and demanding applications.",
+        "best_for": [
+            "Gaming",
+            "Video editing",
+            "Multitasking"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "TechPro Everyday Laptop",
+        "category": "Laptop",
+        "price": 650,
+        "currency": "USD",
+        "specifications": {
+            "processor": "Intel Core i5",
+            "ram": "8GB",
+            "storage": "512GB SSD",
+            "graphics": "Integrated Graphics",
+            "display": "14-inch Full HD"
+        },
+        "description": "An affordable laptop designed for everyday computing, office work, and studying.",
+        "best_for": [
+            "Students",
+            "Office work",
+            "Web browsing"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "TechPro Smartphone X",
+        "category": "Smartphone",
+        "price": 800,
+        "currency": "USD",
+        "specifications": {
+            "display": "6.5-inch OLED",
+            "camera": "50MP",
+            "battery": "5000mAh",
+            "storage": "256GB",
+            "connectivity": "5G"
+        },
+        "description": "A modern smartphone with a high-quality display, advanced camera, and 5G connectivity.",
+        "best_for": [
+            "Photography",
+            "Daily communication",
+            "Entertainment"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "TechPro Wireless Headphones",
+        "category": "Headphones",
+        "price": 150,
+        "currency": "USD",
+        "specifications": {
+            "connection": "Bluetooth",
+            "battery": "30 hours",
+            "noise_cancellation": "Active Noise Cancellation",
+            "microphone": "Built-in microphone"
+        },
+        "description": "Wireless headphones designed for music, calls, and travel.",
+        "best_for": [
+            "Music",
+            "Travel",
+            "Video calls"
+        ]
+    }
+]

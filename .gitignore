@@ -1,0 +1,25 @@
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Generated vector database
+chroma_db/
+
+# Temporary API testing files
+long_history.json
+long_message.txt
+
+# Database files
+*.db
+
+# Test and development cache
+.pytest_cache/

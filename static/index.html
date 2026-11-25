@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroHelp AI | Customer Support</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="app-container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <div class="brand">
+                <div class="brand-icon">⚡</div>
+                <div>
+                    <h2>ElectroHelp</h2>
+                    <span>AI SUPPORT</span>
+                </div>
+            </div>
+
+            <div class="sidebar-content">
+                <h3>YOUR ASSISTANT</h3>
+
+                <div class="assistant-card">
+                    <div class="assistant-avatar">⚡</div>
+                    <div>
+                        <h4>ElectroHelp AI</h4>
+                        <span class="online-status">● Online</span>
+                    </div>
+                </div>
+
+                <div class="sidebar-info">
+                    <h3>HOW CAN I HELP?</h3>
+
+                    <p>🛍️ Product recommendations</p>
+                    <p>💻 Technical support</p>
+                    <p>📦 Orders and delivery</p>
+                    <p>🔧 Troubleshooting</p>
+                    <p>↩️ Returns and refunds</p>
+                </div>
+            </div>
+
+            <div class="sidebar-footer">
+                <p>Powered by Generative AI</p>
+                <span>ElectroHelp AI v1.0</span>
+            </div>
+
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-container">
+
+            <!-- Header -->
+            <header class="chat-header">
+                <div>
+                    <h2>Customer Support</h2>
+                    <p>Chat with your AI assistant</p>
+                </div>
+
+                <div class="header-status">
+                    <span class="status-dot"></span>
+                    Online
+                </div>
+            </header>
+
+            <!-- Chat Messages -->
+            <section class="chat-messages" id="chatMessages">
+
+                <div class="welcome-section">
+                    <div class="welcome-icon">⚡</div>
+
+                    <h1>Welcome to ElectroHelp AI!</h1>
+
+                    <p>
+                        Hello! I'm your AI customer support assistant.
+                        How can I help you today?
+                    </p>
+
+                    <div class="suggestion-container">
+
+                        <button class="suggestion"
+                            onclick="sendSuggestion('Can you help me choose a laptop?')">
+                            💻 Find a laptop
+                        </button>
+
+                        <button class="suggestion"
+                            onclick="sendSuggestion('I need help with a technical issue.')">
+                            🔧 Technical support
+                        </button>
+
+                        <button class="suggestion"
+                            onclick="sendSuggestion('Can you recommend a smartphone?')">
+                            📱 Find a smartphone
+                        </button>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Message Input -->
+            <footer class="chat-input-area">
+
+                <form id="chatForm" class="chat-form">
+
+                    <input
+                        type="text"
+                        id="userInput"
+                        placeholder="Ask ElectroHelp AI anything..."
+                        autocomplete="off"
+                        required
+                    >
+
+                    <button type="submit" id="sendButton">
+                        Send ➤
+                    </button>
+
+                </form>
+
+                <p class="disclaimer">
+                    ElectroHelp AI can make mistakes. Please verify important information.
+                </p>
+
+            </footer>
+
+        </main>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="/static/script.js"></script>
+
+</body>
+</html>
